@@ -1,91 +1,77 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "docs-tryterra",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/inverted.png",
+    "light": "/logo/regular.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#0088ff",
+    "light": "#007ae6",
+    "dark": "#0088ff",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#0088ff",
+      "to": "#007ae6"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Learn More",
+      "url": "https://tryterra.co/learn-more"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get Started",
+    "url": "https://tryterra.co/get-started"
+  },
+  "primaryTab": {
+    "name": "Home"
   },
   "tabs": [
     {
+      "name": "Guides",
+      "url": "/docs"
+    },
+    {
+      "name": "Recipes",
+      "url": "/recipes"
+    },
+    {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "/reference"
+    },
+    {
+      "name": "Changelog",
+      "url": "/changelog"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "users",
+      "url": "https://tryterra.co/community"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://tryterra.co/blog"
     }
   ],
+  "modeToggle": {
+    "default": "dark"
+  },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Connect with Unified API",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "docs/quickstart-1"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "linkedin": "https://www.linkedin.com/company/terraapi",
+    "twitter": "https://twitter.com/TerraAPI",
+    "github": "https://github.com/tryterra"
   }
 }
